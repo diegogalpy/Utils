@@ -2,6 +2,7 @@ import os
 import errno
 
 __author__ = 'diegogaleano'
+__date__ = '20/05/2016'
 
 class Project(object):
     """
@@ -49,7 +50,7 @@ class Project(object):
 
 if __name__ == '__main__':
     # Example usage
-    url =  'F:/PROJECTS/Geometric SLIM - Bronstein/'
+    path =  ' '
     new_project = Project(url)
     new_project.create_directories()
 
